@@ -1,0 +1,30 @@
+{
+  "name": "simon",
+  "version": "1.0.0",
+  "description": "Simon the game test task in Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --watch"
+  },
+  "keywords": [
+    "game",
+    "Vue"
+  ],
+  "author": "Mikhail Gilev",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "sideEffects": true
+}
